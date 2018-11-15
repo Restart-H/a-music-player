@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.music {
+    width: 500px;
+    height: 40px;
+    background: #eee;
+    margin: 20px auto;
+    line-height: 40px;
+}
+
+.musicL {
+    float: left;
+}
+
+.progress {
+    float: left;
+    font-size: 14px;
+    width: 300px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.load {
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    background: #ddd;
+    cursor: pointer;
+    position: relative;
+    top: -2px;
+}
+
+.circle {
+    width: 0px;
+    height: 5px;
+    background: red;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.round {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #63A35C;
+    left: 0px;
+    top: -3px;
+}
+
+.music_list {
+    width: 500px;
+    background: #DDDDDD;
+    margin: 0 auto;
+}
+
+.music_list li {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.music_list li:hover {
+    background: pink;
+}
